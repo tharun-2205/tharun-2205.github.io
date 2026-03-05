@@ -1,82 +1,97 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+
 <title>Tharunkumar R | Embedded Systems Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto+Mono&display=swap" rel="stylesheet">
 
 <style>
 
 body{
-font-family: Arial, sans-serif;
+font-family:'Poppins', sans-serif;
 margin:0;
-background:#f5f7fa;
-color:#333;
+background:#eef2f7;
+color:#2b2b2b;
 }
 
 .header{
-background:#0c2a45;
+background:#102a43;
 color:white;
 text-align:center;
-padding:60px 20px;
+padding:70px 20px;
 }
 
 .header h1{
-font-size:42px;
-color:#7fffd4;
-margin-bottom:10px;
+font-size:44px;
+color:#64dfdf;
+margin-bottom:8px;
 }
 
 .header p{
 font-size:18px;
+opacity:0.9;
 }
 
 .container{
-width:85%;
+width:80%;
 margin:auto;
 margin-top:40px;
 }
 
 .section-title{
-font-size:26px;
-border-bottom:2px solid #1c2b3a;
-padding-bottom:8px;
-margin-bottom:20px;
+font-size:24px;
 letter-spacing:2px;
+border-bottom:2px solid #334e68;
+padding-bottom:10px;
+margin-bottom:25px;
 }
 
 .card{
 background:white;
-padding:30px;
-border-radius:10px;
-box-shadow:0 4px 10px rgba(0,0,0,0.08);
-margin-bottom:25px;
+padding:35px;
+border-radius:12px;
+box-shadow:0 8px 20px rgba(0,0,0,0.06);
+margin-bottom:30px;
 }
 
 .skills{
 display:flex;
-gap:20px;
+gap:25px;
 flex-wrap:wrap;
 }
 
 .skill-box{
 flex:1;
-min-width:250px;
+min-width:260px;
 }
 
 .tag{
 display:inline-block;
-background:#e3e8ef;
-padding:8px 12px;
+background:#d9e2ec;
+padding:8px 14px;
 border-radius:20px;
 margin:6px;
 font-size:14px;
 }
 
+.project{
+margin-bottom:25px;
+}
+
+.project h3{
+margin-bottom:10px;
+color:#243b53;
+}
+
 .footer{
-background:#0c2a45;
+background:#102a43;
 color:white;
 text-align:center;
 padding:20px;
 margin-top:40px;
+font-size:14px;
 }
 
 </style>
@@ -85,16 +100,15 @@ margin-top:40px;
 
 <body>
 
+
 <div class="header">
 
 <h1>Tharunkumar R</h1>
 
-<p>M.Tech in Embedded Systems | Electronics & Communication Engineer</p>
+<p>M.Tech Embedded Systems | Electronics & Communication Engineer</p>
 
 <p>
-rtharunkumar0403@gmail.com |
-LinkedIn |
-GitHub
+rtharunkumar0403@gmail.com | Chennai, India
 </p>
 
 </div>
@@ -107,18 +121,23 @@ GitHub
 <div class="card">
 
 <p>
-I am Tharunkumar R, an M.Tech student in Embedded Systems at Amrita Vishwa Vidyapeetham with a strong background in Electronics and Communication Engineering. I enjoy working on microcontroller-based systems and turning embedded software into real-world hardware applications.
+I am <b>Tharunkumar R</b>, an embedded systems enthusiast currently pursuing M.Tech in Embedded Systems at Amrita Vishwa Vidyapeetham. My academic background in Electronics and Communication Engineering has helped me build a strong interest in designing intelligent embedded solutions that connect hardware with efficient software logic.
 </p>
 
 <p>
-My interests include STM32 development, ESP32 based IoT systems, robotics, and intelligent sensing platforms. I focus on designing practical embedded solutions that integrate sensors, communication interfaces, and efficient algorithms.
+I enjoy working with microcontrollers, sensors, and real-time embedded applications where code interacts directly with the physical world. My focus lies in developing practical systems using platforms such as <b>STM32, ESP32, Arduino, and Raspberry Pi</b>, integrating sensing, control, and communication technologies.
 </p>
 
 <p>
-I enjoy solving real-world engineering problems through embedded technologies and continuously exploring new tools and technologies in the field of embedded systems and automation.
+As a person, I am naturally <b>optimistic and curious</b>, always eager to learn new technologies and improve my technical abilities. I value collaboration and consider myself a <b>good listener and a team player</b>, which helps me work effectively in engineering teams. I also enjoy taking responsibility and leadership when needed, striving to ensure that tasks are completed with dedication and integrity.
+</p>
+
+<p>
+My goal is to continue growing as an engineer while contributing to innovative embedded solutions that address real-world challenges in automation, sensing systems, and intelligent devices.
 </p>
 
 </div>
+
 
 
 <h2 class="section-title">TECHNICAL EXPERTISE</h2>
@@ -127,12 +146,10 @@ I enjoy solving real-world engineering problems through embedded technologies an
 
 <div class="card skill-box">
 
-<h3>Programming Languages</h3>
+<h3>Programming</h3>
 
 <span class="tag">C</span>
 <span class="tag">Embedded C</span>
-<span class="tag">Assembly</span>
-<span class="tag">Verilog</span>
 
 </div>
 
@@ -144,16 +161,18 @@ I enjoy solving real-world engineering problems through embedded technologies an
 <span class="tag">STM32</span>
 <span class="tag">ESP32</span>
 <span class="tag">Arduino</span>
+<span class="tag">Raspberry Pi</span>
 
 </div>
 
 
 <div class="card skill-box">
 
-<h3>Tools & IDEs</h3>
+<h3>Tools & Software</h3>
 
 <span class="tag">STM32CubeIDE</span>
 <span class="tag">Arduino IDE</span>
+<span class="tag">LabVIEW</span>
 <span class="tag">Proteus</span>
 
 </div>
@@ -161,51 +180,46 @@ I enjoy solving real-world engineering problems through embedded technologies an
 </div>
 
 
-<h2 class="section-title">M.TECH PROJECTS</h2>
+
+<h2 class="section-title">PROJECTS</h2>
 
 <div class="card">
 
-<h3>Vehicle Collision Avoidance System</h3>
+<div class="project">
 
-<ul>
+<h3>Effective ICU Tele-Monitoring Device</h3>
 
-<li>Designed a sensor fusion system using ultrasonic and IR sensors.</li>
+<p>
+Designed a monitoring system that allows doctors, nurses, and patient attendants to continuously track ICU patients and critical health parameters for improved medical supervision.
+</p>
 
-<li>Implemented dynamic weighting and EMA filtering on STM32 for reliable obstacle detection.</li>
+</div>
 
-<li>Developed real-time alert system using LCD, LED and buzzer.</li>
+<div class="project">
 
-</ul>
+<h3>2D Orthomosaicking of Underwater Sites of Poompuhar</h3>
+
+<p>
+Developed a digital reconstruction approach using underwater image stitching and hybrid transformation models to generate accurate orthomosaic images of submerged archaeological sites.
+</p>
+
+</div>
 
 </div>
 
 
-<div class="card">
 
-<h3>Music Genre Classification</h3>
-
-<ul>
-
-<li>Developed a machine learning model using MFCC feature extraction.</li>
-
-<li>Trained a CNN model to classify different music genres.</li>
-
-</ul>
-
-</div>
-
-
-<h2 class="section-title">PROFESSIONAL CERTIFICATIONS</h2>
+<h2 class="section-title">CERTIFICATIONS</h2>
 
 <div class="card">
 
 <ul>
 
-<li>Embedded Controllers – NeST Digital</li>
+<li>Ethical Hacking Certification – Parts2Product</li>
 
-<li>CMOS Digital VLSI Design – NPTEL</li>
+<li>LabVIEW Certification Course – National Instruments</li>
 
-<li>VEGA Processors and Ecosystem – C-DAC Trivandrum</li>
+<li>Certified LabVIEW Associate Developer (CLAD)</li>
 
 </ul>
 
@@ -217,9 +231,10 @@ I enjoy solving real-world engineering problems through embedded technologies an
 
 <div class="footer">
 
-© 2026 Tharunkumar R | Professional Portfolio
+© 2026 Tharunkumar R | Embedded Systems Portfolio
 
 </div>
+
 
 </body>
 
